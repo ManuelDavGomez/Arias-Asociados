@@ -1,0 +1,407 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact_container_general h1 {
+  font-size: 1.3rem;
+}
+.contact_container_general h2 {
+  font-size: 1.2rem;
+}
+.contact_container_general h3 {
+  font-size: 1rem;
+}
+.contact_container_general h4 {
+  font-size: 0.9rem;
+}
+.contact_container_general h5 {
+  font-size: 0.875rem;
+}
+.contact_container_general h6 {
+  font-size: 0.75rem;
+}
+.contact_container_general a {
+  color: #000;
+}
+.contact_container_general {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.contact_hero {
+  height: 100vh;
+  width: 100%;
+}
+.contact_parallax {
+  background-image: url("../../assets/Img/contact.avif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  position: relative;
+  justify-content: center;
+}
+.contact_parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.contact_parallax_content {
+  word-wrap: break-word;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 60px;
+  color: #fff;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contacto_container_general {
+  background: #2b2f77;
+  background: -webkit-linear-gradient(
+    91deg,
+    #2b2f77 0,
+    #141852 50%,
+    #070b34 100%
+  );
+  background: linear-gradient(91deg, #2b2f77 0, #141852 50%, #070b34 100%);
+  padding: 50px 10px 50px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.contactos_containers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background: rgba(97, 240, 234, 0.35);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(97, 240, 234, 0.25);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.contactos_containers p {
+  font-size: 0.93rem;
+}
+.contactos_title {
+  padding-bottom: 10px;
+}
+.iconos_container_general {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.iconos_container {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+}
+.iconos_container i {
+  font-size: 30px;
+}
+.social_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+  gap: 20px;
+}
+.social_container i {
+  font-size: 30px;
+}
+.social_container i:hover {
+  color: #0ff;
+  cursor: pointer;
+}
+.contact_form {
+  margin: 20px 0 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 18px;
+}
+.contact_form::placeholder {
+  font-size: 0.8rem;
+}
+label {
+  display: block;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background: #234a65;
+  box-shadow: inset 39px 39px 78px #193549, inset -39px -39px 78px #2d5f81;
+}
+input:focus,
+textarea:focus {
+  outline: 0;
+  border: 2px solid #87ceeb;
+}
+textarea {
+  width: 100%;
+  height: 125px;
+  padding: 6px;
+  resize: vertical;
+  margin-bottom: 3px;
+}
+.form_btn {
+  padding: 10px 0 10px 0;
+  background-color: #0050a7;
+  border: 2px solid #87ceeb;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.93rem;
+  font-weight: 700;
+}
+.form_btn:hover {
+  color: #000;
+  border: 2px solid #000;
+  background-color: #003166;
+}
+@media (min-width: 320px) {
+  .contactos_containers {
+    width: 90%;
+  }
+}
+@media (min-width: 360px) {
+  .contactos_containers {
+    width: 85%;
+  }
+}
+@media (min-width: 411px) {
+  .contactos_containers {
+    width: 80%;
+  }
+  .contact_parallax_content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 430px) {
+  .contacto_container_general {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .form_btn {
+    padding: 7.5px 0 7.5px 0;
+  }
+}
+@media (min-width: 480px) {
+  .contacto_container_general {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media (min-width: 540px) {
+  .contacto_container_general {
+    gap: 20px;
+    padding: 50px 20px 70px 20px;
+  }
+}
+@media (min-width: 600px) {
+  .contact_parallax_content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 640px) {
+  .contactos_containers {
+    padding: 15px;
+  }
+}
+@media (min-width: 667px) {
+  .contacto_container_general {
+    padding: 60px 30px 80px 30px;
+  }
+}
+@media (min-width: 712px) {
+  .contacto_container_general {
+    gap: 25px;
+  }
+  .contact_parallax {
+    background-image: url("../../assets/Img/contact_horizon.avif");
+  }
+}
+@media (min-width: 800px) {
+  .contacto_container_general {
+    gap: 30px;
+    padding: 50px 30px 70px 30px;
+  }
+  .social_container i {
+    font-size: 32px;
+  }
+  .social_container {
+    gap: 30px;
+  }
+}
+@media (min-width: 842px) {
+  .contacto_container_general {
+    gap: 40px;
+    padding: 60px 40px 80px 40px;
+  }
+}
+@media (min-width: 900px) {
+  .contact_container_general h1 {
+    font-size: 1.4rem;
+  }
+  .contact_container_general h2 {
+    font-size: 1.3rem;
+  }
+  .contact_container_general h3 {
+    font-size: 1rem;
+  }
+  .contact_container_general h4 {
+    font-size: 0.9rem;
+  }
+  .contact_container_general h5 {
+    font-size: 0.875rem;
+  }
+  .contact_container_general h6 {
+    font-size: 0.75rem;
+  }
+  .contactos_containers p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 950px) {
+  .contacto_container_general {
+    gap: 30px;
+    padding: 70px 50px 90px 50px;
+  }
+  .contact_parallax_content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .contacto_container_general {
+    gap: 30px;
+    padding: 70px 70px 90px 70px;
+  }
+  .contact_hero {
+    height: 75vh;
+  }
+  .contact_parallax_content {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-height: 1000px) {
+  .contact_hero {
+    height: 65vh;
+  }
+}
+@media (min-height: 1100px) {
+  .contact_hero {
+    height: 55vh;
+  }
+}
+@media (min-height: 1200px) {
+  .contact_hero {
+    height: 45vh;
+  }
+}
+@media (min-width: 1105px) {
+  .contacto_container_general {
+    padding: 70px 100px 90px 100px;
+  }
+  .contactos_containers {
+    width: 500px;
+  }
+}
+@media (min-width: 1155px) {
+  .contacto_container_general {
+    gap: 40px;
+  }
+}
+@media (min-width: 1205px) {
+  .contacto_container_general {
+    gap: 50px;
+  }
+  .contact_parallax_content {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+@media (min-width: 1450px) {
+  .contact_container_general {
+    width: 90%;
+  }
+}
+@media (min-width: 1500px) {
+  .contact_hero {
+    height: 400px;
+  }
+  .contact_parallax {
+    background-position: bottom;
+  }
+}
+@media (min-width: 1550px) {
+  .contact_container_general {
+    width: 85%;
+  }
+}
+@media (min-width: 1650px) {
+  .contact_container_general {
+    width: 80%;
+  }
+}
+@media (min-width: 1750px) {
+  .contact_container_general {
+    width: 75%;
+  }
+}
+@media (min-width: 1850px) {
+  .contact_container_general {
+    width: 70%;
+  }
+}
+@media (min-width: 1950px) {
+  .contact_container_general {
+    width: 65%;
+  }
+}
+@media (min-width: 2005px) {
+  .contact_container_general {
+    width: 60%;
+  }
+  .contactos_containers {
+    width: 500px;
+  }
+}
+@media (min-width: 3005px) {
+  .contact_container_general {
+    width: 50%;
+  }
+}

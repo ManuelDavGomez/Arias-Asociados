@@ -1,0 +1,397 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.practica_container_general h1 {
+  font-size: 1.3rem;
+}
+.practica_container_general h2 {
+  font-size: 1.25rem;
+}
+.practica_container_general h3 {
+  font-size: 1.125rem;
+}
+.practica_container_general h4 {
+  font-size: 1rem;
+}
+.practica_container_general h5 {
+  font-size: 0.875rem;
+}
+.practica_container_general h6 {
+  font-size: 0.75rem;
+}
+.practica_container_general {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+.practica_hero {
+  height: 100vh;
+  width: 100%;
+}
+.practica_parallax {
+  background-image: url("../../assets/Img/practicas.avif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  position: relative;
+  justify-content: center;
+}
+.practica_parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.practica_parallax_content {
+  word-wrap: break-word;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: gray;
+}
+.practicas_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.practical_containers {
+  background-image: url(../../assets/svg/practicas1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.practical_containers img {
+  width: 40vw;
+}
+.practical_box1,
+.practical_box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.practical_box2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.practical_box2 h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #fff;
+}
+.practical_box2 p {
+  color: #adadad;
+  font-size: 0.93rem;
+}
+.practical_box1 {
+  margin-bottom: 20px;
+}
+.practical_two {
+  background-image: url(../../assets/svg/practicas3.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.practical_three {
+  background-image: url(../../assets/svg/practicas2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 280px) {
+  .practical_containers img {
+    width: 30vw;
+  }
+}
+@media (min-width: 320px) {
+  .practical_containers img {
+    width: 28vw;
+  }
+}
+@media (min-width: 375px) {
+  .practical_containers img {
+    width: 26vw;
+  }
+}
+@media (min-width: 384px) {
+  .practical_containers {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .practical_box2 p {
+    text-align: center;
+  }
+}
+@media (min-width: 411px) {
+  .practica_parallax_content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 480px) {
+  .practical_containers {
+    flex-direction: row;
+  }
+  .practical_two {
+    flex-direction: row-reverse;
+  }
+  .practical_three {
+    flex-direction: row;
+  }
+}
+@media (min-width: 540px) {
+  .practical_containers img {
+    width: 20vw;
+  }
+  .practical_box1 {
+    width: 60%;
+  }
+}
+@media (min-width: 595px) {
+  .practical_containers img {
+    width: 17.5vw;
+  }
+}
+@media (min-width: 600px) {
+  .practical_containers {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .practica_parallax_content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 712px) {
+  .practical_containers img {
+    width: 15.5vw;
+  }
+}
+@media (min-width: 720px) {
+  .practical_containers {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .practical_containers img {
+    width: 14.5vw;
+  }
+}
+@media (min-width: 750px) {
+  .practical_containers {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 800px) {
+  .practica_parallax {
+    background-image: url("../../assets/Img/practicas_horizon.avif");
+  }
+}
+@media (min-width: 820px) {
+  .practical_box1 {
+    width: 50%;
+  }
+  .practical_containers img {
+    width: 13.5vw;
+  }
+}
+@media (min-width: 842px) {
+  .practical_containers {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 960px) {
+  .practical_box1 {
+    width: 45%;
+  }
+  .practica_parallax_content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .practical_containers img {
+    width: 12.5vw;
+  }
+  .practica_hero {
+    height: 75vh;
+  }
+  .practica_parallax_content {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-height: 1030px) {
+  .practica_hero {
+    height: 60vh;
+  }
+}
+@media (min-height: 1130px) {
+  .practica_hero {
+    height: 55vh;
+  }
+}
+@media (min-height: 1230px) {
+  .practica_hero {
+    height: 50vh;
+  }
+}
+@media (min-width: 1050px) {
+  .practica_container_general h1 {
+    font-size: 1.4rem;
+  }
+  .practica_container_general h2 {
+    font-size: 1.35rem;
+  }
+  .practica_container_general h3 {
+    font-size: 1.3rem;
+  }
+  .practica_container_general h4 {
+    font-size: 1.2rem;
+  }
+  .practica_container_general h5 {
+    font-size: 1.1rem;
+  }
+  .practica_container_general h6 {
+    font-size: 0.95rem;
+  }
+}
+@media (min-width: 1080px) {
+  .practical_containers {
+    padding-left: 60px;
+    padding-right: 90px;
+  }
+}
+@media (min-width: 1155px) {
+  .practical_containers {
+    padding-left: 90px;
+    padding-right: 110px;
+  }
+  .practical_containers img {
+    width: 10.5vw;
+  }
+}
+@media (min-width: 1180px) {
+  .practical_containers {
+    padding-left: 110px;
+    padding-right: 140px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1205px) {
+  .practical_containers img {
+    width: 9.5vw;
+  }
+  .practica_parallax_content {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+@media (min-width: 1305px) {
+  .practical_containers img {
+    width: 9vw;
+  }
+  .practical_containers {
+    padding-left: 130px;
+    padding-right: 190px;
+  }
+}
+@media (min-width: 1450px) {
+  .practica_container_general {
+    width: 90%;
+  }
+}
+@media (min-width:1500px) {
+  .practica_hero{
+    height: 400px
+  }
+}
+@media (min-width: 1505px) {
+  .practical_containers {
+    padding-left: 140px;
+    padding-right: 200px;
+  }
+}
+@media (min-width: 1550px) {
+  .practica_container_general {
+    width: 85%;
+  }
+  .practical_containers img {
+    width: 8vw;
+  }
+}
+@media (min-width: 1650px) {
+  .practica_container_general {
+    width: 80%;
+  }
+}
+@media (min-width: 1705px) {
+  .practical_containers img {
+    width: 7vw;
+  }
+}
+@media (min-width: 1750px) {
+  .practica_container_general {
+    width: 75%;
+  }
+}
+@media (min-width: 1850px) {
+  .practica_container_general {
+    width: 70%;
+  }
+}
+@media (min-width: 1950px) {
+  .practica_container_general {
+    width: 65%;
+  }
+  .practical_containers img {
+    width: 6vw;
+  }
+}
+@media (min-width: 2005px) {
+  .practica_container_general {
+    width: 60%;
+  }
+  .practical_containers img {
+    width: 120px;
+  }
+}
+@media (min-width: 2550px) {
+  .practica_parallax_content {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+}
+@media (min-width: 3005px) {
+  .practica_container_general {
+    width: 50%;
+  }
+}

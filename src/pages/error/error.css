@@ -1,0 +1,83 @@
+.error_container {
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0d0d1b;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 10px;
+  animation: bounce 1s infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.error-text {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+.error-message {
+  font-size: 1.5rem;
+  text-align: center;
+}
+@media (min-width: 1450px) {
+  .error_container {
+    width: 90%;
+  }
+}
+@media (min-width: 1550px) {
+  .error_container {
+    width: 85%;
+  }
+}
+@media (min-width: 1650px) {
+  .error_container {
+    width: 80%;
+  }
+}
+@media (min-width: 1750px) {
+  .error_container {
+    width: 75%;
+  }
+}
+@media (min-width: 1850px) {
+  .error_container {
+    width: 70%;
+  }
+}
+@media (min-width: 1950px) {
+  .error_container {
+    width: 65%;
+  }
+}
+@media (min-width: 2005px) {
+  .error_container {
+    width: 60%;
+  }
+}
+@media (min-width: 3005px) {
+  .error_container {
+    width: 50%;
+  }
+}

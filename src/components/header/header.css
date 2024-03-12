@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+}
+.navbar-logo {
+  width: 20vw;
+  height: 10vw;
+}
+.nav_logo {
+  width: 100%;
+  height: 100%;
+}
+.navbar-menu {
+  display: flex;
+  list-style: none;
+}
+.nav_links {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 5.6vw;
+  padding-bottom: 15px;
+}
+.nav_links:hover {
+  cursor: pointer;
+  color: #6cf;
+  font-weight: 700;
+}
+.navbar-toggle {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.last {
+  padding-bottom: 0;
+}
+@media (min-width: 280px) {
+  .nav_links {
+    font-size: 5vw;
+  }
+  .navbar-logo {
+    width: 17vw;
+    height: 8vw;
+  }
+}
+@media (min-width: 320px) {
+  .nav_links {
+    font-size: 4.37vw;
+  }
+  .navbar-logo {
+    width: 16vw;
+    height: 7vw;
+  }
+}
+@media (min-width: 360px) {
+  .nav_links {
+    font-size: 3.88vw;
+  }
+  .navbar-logo {
+    width: 14vw;
+    height: 6.5vw;
+  }
+}
+@media (min-width: 411px) {
+  .nav_links {
+    font-size: 3.4vw;
+  }
+  .navbar-logo {
+    width: 13vw;
+    height: 5.5vw;
+  }
+}
+@media (min-width: 480px) {
+  .nav_links {
+    font-size: 2.91vw;
+  }
+  .navbar-logo {
+    width: 11vw;
+    height: 5vw;
+  }
+}
+@media (min-width: 540px) {
+  .nav_links {
+    font-size: 2.59vw;
+  }
+  .navbar-logo {
+    width: 9vw;
+    height: 5vw;
+  }
+}
+@media (min-width: 595px) {
+  .nav_links {
+    font-size: 2.35vw;
+  }
+  .navbar-logo {
+    width: 9vw;
+    height: 5vw;
+  }
+  .navbar-menu {
+    padding-right: 10px;
+  }
+}
+@media (min-width: 600px) {
+  .navbar-logo {
+    width: 9vw;
+    height: 4vw;
+  }
+  .nav_links {
+    font-size: 2.33vw;
+  }
+}
+@media (min-width: 640px) {
+  .nav_links {
+    font-size: 2.2vw;
+  }
+}
+@media (min-width: 667px) {
+  .nav_links {
+    font-size: 2.15vw;
+  }
+  .navbar-logo {
+    width: 8vw;
+    height: 3.5vw;
+  }
+}
+@media (min-width: 810px) {
+  .nav_links {
+    font-size: 2vw;
+  }
+  .navbar-logo {
+    width: 7vw;
+    height: 3vw;
+  }
+}
+@media (min-width: 870px) {
+  .nav_links {
+    font-size: 1.8vw;
+  }
+}
+@media (min-width: 926px) {
+  .nav_links {
+    font-size: 1.6vw;
+  }
+  .navbar-logo {
+    width: 6vw;
+    height: 2.5vw;
+  }
+}
+@media (min-width: 1050px) {
+  .nav_links {
+    font-size: 1.5vw;
+  }
+  .navbar-logo {
+    width: 5vw;
+    height: 2.25vw;
+  }
+}
+@media (min-width: 1105px) {
+  .nav_links {
+    font-size: 1.4vw;
+  }
+}
+@media (min-width: 1155px) {
+  .nav_links {
+    font-size: 1.4vw;
+  }
+}
+@media (min-width: 1230px) {
+  .nav_links {
+    font-size: 1.3vw;
+  }
+}
+@media (min-width: 1355px) {
+  .nav_links {
+    font-size: 1.2vw;
+  }
+  .navbar-menu {
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1450px) {
+  .navbar {
+    width: 90%;
+    margin-left: calc((100% - 90%) / 2);
+  }
+  .nav_links {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1550px) {
+  .navbar {
+    width: 85%;
+    margin-left: calc((100% - 85%) / 2);
+  }
+  .navbar-logo {
+    width: 77.5px;
+    height: 30px;
+  }
+}
+@media (min-width: 1650px) {
+  .navbar {
+    width: 80%;
+    margin-left: calc((100% - 80%) / 2);
+  }
+}
+@media (min-width: 1750px) {
+  .navbar {
+    width: 75%;
+    margin-left: calc((100% - 75%) / 2);
+  }
+}
+@media (min-width: 1850px) {
+  .navbar {
+    width: 70%;
+    margin-left: calc((100% - 70%) / 2);
+  }
+}
+@media (min-width: 1950px) {
+  .navbar {
+    width: 65%;
+    margin-left: calc((100% - 65%) / 2);
+  }
+}
+@media (min-width: 2005px) {
+  .navbar {
+    width: 60%;
+    margin-left: calc((100% - 60%) / 2);
+  }
+}
+@media (min-width: 3005px) {
+  .navbar {
+    width: 50%;
+    margin-left: calc((100% - 50%) / 2);
+  }
+}
+@media (min-width: 560px) {
+  .navbar-menu {
+    gap: 20px;
+  }
+  .nav_links {
+    padding-bottom: 0;
+    margin-right: 0;
+  }
+  .nav_links:hover {
+    color: #6cf;
+  }
+}
+@media (max-width: 560px) {
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-menu.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  .navbar-menu.open li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
